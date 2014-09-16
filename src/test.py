@@ -5,7 +5,7 @@ import ee
 import ConfigParser
 
 Config = ConfigParser.ConfigParser()
-Config.read('.ee-properties')
+Config.read('.properties')
 
 MY_SERVICE_ACCOUNT = Config.get('Authentication', 'ServiceAccount')
 MY_PRIVATE_KEY_FILE = Config.get('Authentication', 'PrivateKeyFile')

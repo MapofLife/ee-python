@@ -1,3 +1,0 @@
-[Authentication]
-ServiceAccount: randomnumber@developer.gserviceaccount.com
-PrivateKeyFile: /path/to/file/yourprivatekeyfile.p12
